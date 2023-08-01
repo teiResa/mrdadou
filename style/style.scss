@@ -5,7 +5,7 @@ $orange: orange;
 $orangeLight: yellow;
 $orangeDark: red;
 $yellow: yellow;
-$yellowLight: tan;
+$yellowLight: rgb(250, 250, 203);
 $yellowDark: brown;
 
 
@@ -20,7 +20,52 @@ body {
 .sidebar {
  display: flex;
  align-items: center;
+ width: 260px;
+
+
 }
+
+ @media (max-width: 1200px) {
+  .sidebar{
+   width: 143px;
+  }
+  #info_img_circle {
+   width: 60px;
+  }
+  #info_img_circle img{
+   width: 60px;
+  }
+
+  .fs-4 {
+   font-size: calc(1.0rem + .2vw)!important;
+  }
+
+  li{
+   min-width: 120px;
+  }
+
+  i {
+   padding-right: 10px;
+  }
+  
+ }
+
+
+
+
+ a i {
+  color: $orange;
+
+ } 
+
+ .photocard {
+  color: $fontWhite;
+  background-color: $blue;
+
+
+  
+ }
+
 
 #info_img_circle {
  border-radius: 50%;
@@ -32,3 +77,25 @@ body {
  width: 100px;
  border-radius: 50%;
 }
+
+.sidebar li {
+ display: flex;
+}
+
+li:hover {
+ background-color: $blueLight;
+
+}
+
+.disable-hover {
+ pointer-events: none;
+}
+
+.disable-highlight{ 
+ -webkit-user-select:none;
+ -webkit-touch-callout:none;
+ -moz-user-select:none;
+ -ms-user-select:none;
+ user-select:none;
+ }
+
