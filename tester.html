@@ -1,14 +1,29 @@
+<!--
+
+  This version of the site is only for sites under 768px.
+-->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
+ <title>TESTER</title>
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+ <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sticky-footer/">
+ <link rel="stylesheet" href="/style/mobile.css">
+ <link rel="stylesheet" href="/style/mobile_sidebar.css">
  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sticky-footer/">
  <link rel="stylesheet" href="/style/tester.css">
 </head>
 <body>
+ <!--
+ <script type="text/javascript">
+  if (screen.width >= 768) {
+  document.location = "tester.html";
+  }
+  </script>-->
  <style>
   html {
    height: 100vh;
@@ -25,46 +40,38 @@
 
    <!-- The sidebar -->
 
-  <div class="col-xs-6 col-md-2 col-lg-3 d-flex flex-column flex-shrink-0 p-3 bg-light sidebar disable-highlight">
-   <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-     
-     <span class="fs-4">Mr D4d0u</span>
-   </a>
-   <hr>
-   <ul class="nav nav-pills flex-column mb-auto list-group list-group-horizontal-xs">
-     <li class="nav-item disable-hover photocard">
-       <a href="#" class="nav-link" aria-current="page">
-         <img src="/assets/temp/logo_flat.png" id="nav_img" alt="">
-         <p>Hey, I'm David D</p>
-         
-       
-       </a>
-     </li>
-     <li>
-       <a href="/tabs.html" class="nav-link link-dark">
+  <div class="col-xs-6  d-flex flex-row flex-shrink-0 p-3 bg-light sidebar disable-highlight">
+
+   
+      <div class="col-1 col-xs-0"></div>
+      <div class="col-3">
+         <a href="/contact.html" class="nav-link" aria-current="page">
+         <img src="/assets/temp/logo_flat.png" id="nav_img" alt=""></a>
+       </div>
+       <div class="col-4">
+        <div class="nav-button"><a href="/tabs.html" class="nav-link link-dark">
         <i class="fa-solid fa-guitar fontAwes"></i>
         <!--  <i class="fa-solid fa-music"></i> <i class="fa-solid fa-circle-dot"></i>  -->
         Tabs List
-       </a>
-     </li>
-     
-     <li>
-       <a href="https://space.bilibili.com/2045047052?spm_id_from=333.337.0.0" class="nav-link link-dark">
+       </a></div>
+        <div class="nav-button"><a href="https://space.bilibili.com/2045047052?spm_id_from=333.337.0.0" class="nav-link link-dark">
          <i class="fa-brands fa-bilibili fontAwes"></i>  BiliBili
          
-       </a>
-     </li>
-     <li>
-      <a href="https://youtube.com/@MrD4d0u" class="nav-link link-dark">
+       </a></div>
+        <div class="nav-button"><a href="https://youtube.com/@MrD4d0u" class="nav-link link-dark">
         <i class="fa-brands fa-youtube fontAwes"></i> Youtube 
-      </a>
-    </li>
-     <li class="disable-hover">
-      <div  style="height: 30vh;"> </div>
-     </li>
-   </ul>
+      </a></div>
+       
+       
+      
+      </div>
+    
+     <div class="col disable-hover sidebar-spacer">
+      <div> </div>
+     </div>
+   
    <hr>
-   <div class="dropdown">
+   <div class="col nav-button dropdown">
      <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
        
        <strong><i class="fa-solid fa-universal-access"></i> </strong> Accessibility
@@ -77,6 +84,8 @@
        <li><a class="dropdown-item" href="#">Sign out</a></li>
      </ul>
    </div>
+   <div class="col-1 col-xs-0"></div>
+  </div>
  </div>
   
 
@@ -103,7 +112,24 @@
 
 
 
-  <div class="col-xs-6 col-md-10 col-lg-9">main</div>
+  <div class="col-xs-6 col-md-10 col-lg-9">
+  <div class="tabs_box">
+   <div class="tabs_disclosure"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, placeat unde repellat, modi suscipit alias, eum architecto nemo neque commodi veniam dignissimos eaque facilis eveniet? Dolores non neque aut. Minima!</div>
+   <div class="tabs_list">
+    <ul class="fa-ul">
+
+     <li class="tabs_link"><i class="fa-solid fa-guitar fontAwes"></i>Folk Song Etude in <a href="/parts/open_d.html"> Open D</a></li>
+     <li class="tabs_link"><i class="fa-solid fa-guitar fontAwes"></i>Folk Song Etude in <a href="/parts/open_d.html"> Open D</a></li>
+     <li class="tabs_link"><i class="fa-solid fa-guitar fontAwes"></i>Folk Song Etude in <a href="/parts/open_d.html"> Open D</a></li>
+     <li class="tabs_link"><i class="fa-solid fa-guitar fontAwes"></i>Folk Song Etude in <a href="/parts/open_d.html"> Open D</a></li>
+     <li class="tabs_link"><i class="fa-solid fa-guitar fontAwes"></i>Folk Song Etude in <a href="/parts/open_d.html"> Open D</a></li>
+    </ul>
+   </div>
+
+  </div>
+
+</div>
+
 
  </div>
 
@@ -122,8 +148,16 @@
 
 
 
+ <footer class="footer mt-auto py-3 bg-light">
+  <div class="container">
+    <span class="text-muted"> <a href="https://github.com/teiResa"> A site by Theresa B (@teiResa)</a> <i class="far fa-kiss-wink-heart"></i></span>
+  </div>
+ </footer>
 
  
+<!-- fontawesome kit-->
+<script src="https://kit.fontawesome.com/b9730a3ea0.js" crossorigin="anonymous"></script>
+
  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
  <!-- Bootstrap core JS-->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
