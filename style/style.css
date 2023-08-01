@@ -1,0 +1,23 @@
+body {
+  background-color: tan;
+}
+
+.sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#info_img_circle {
+  border-radius: 50%;
+  width: 70px;
+}
+
+#info_img_circle img {
+  width: 100px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
