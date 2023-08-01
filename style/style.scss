@@ -47,10 +47,78 @@ body {
  box-shadow: 14px -16px 25px $orangeLighter;
 }
 
- @media (max-width: 1200px) {
-  .sidebar{
-   width: 173px;
+@media (max-width: 768px) {
+ // phones, windows split screen
+ *{
+  background-color: red;
+ }
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+ // small devices - 1/2 screen desktop mode, tablets
+ //.sidebar{
+ //width: 173px;
+ 
+//}
+
+.sidebar::after {
+ width: 100%; // match width of .sidebar no +1px
+ 
+height: 112vh; //.sidebar height minus footer
+}
+
+#nav_img {
+ width: 20px;
+}
+
+.fs-4 {
+ font-size: calc(1.0rem + .2vw)!important;
+}
+
+li{
+ min-width: 120px;
+}
+
+i {
+ padding-right:7px;
+}
+ }
+ @media (min-width: 992px) and (max-width: 1199px) { 
+  // medium devices - desktops
+  sidebar{
+  width: 173px;
+  
+ }
+
+ .sidebar::after {
+  width: 173px; // match width of .sidebar no +1px
+  
+height: 112vh; //.sidebar height minus footer
+ }
+ 
+ #nav_img {
+  width: 20px;
+ }
+
+ .fs-4 {
+  font-size: calc(1.0rem + .2vw)!important;
+ }
+
+ li{
+  min-width: 120px;
+ }
+
+ i {
+  padding-right:7px;
+ }
   }
+//@media (min-width: 1200px) { ... }
+
+ @media (max-width: 1200px) {
+  //.sidebar{
+  // width: 173px;
+   
+  //}
 
   .sidebar::after {
    width: 173px; // match width of .sidebar no +1px
