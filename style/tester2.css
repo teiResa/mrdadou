@@ -2,6 +2,7 @@
 
 .both_sides{
  background-image: url("/assets/temp/pokadots.png");
+ background-size: contain;
 }
 
 .contact_box {

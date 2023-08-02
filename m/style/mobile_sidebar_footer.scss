@@ -1,3 +1,18 @@
+$blue: #049093;
+$blueT50: #04909377;
+$blueLight: #83cbcc;
+$blueDark: #025e5f;
+$orange: #ff640c;
+$orangeLight: #fb965c;
+$orangeLighter: #f9b58e;
+$orangeDark: #b94909;
+$yellow: #faf3a7;
+$yellowLight: #f6ecc6;
+$yellowLightT30: #f6ecc646;
+$yellowLightT80: #f6ecc6bd;
+$yellowDark: #ccbf90;
+$fontWhite: white;
+
  /* This version of the site is only for sites under 768px.*/ 
 
 
@@ -18,7 +33,7 @@
    background-position: 12vw;
    background-size: contain;
 
-   background-color: whitesmoke;
+   background-color: $yellowLight;
   
   }
   #nav_img {
@@ -54,7 +69,7 @@
 }
 
 a i {
- color: lightsalmon;
+ color: $orange;
 } 
 
 a #text {
@@ -62,8 +77,8 @@ a #text {
 }
 
 .photocard {
- color: white;
- background-color: lightblue;
+ color: $fontWhite;
+ background-color: $blueLight;
  border-radius: 5px;
  box-shadow:inset 0px 0px 5px 0px lightcyan;
 -moz-box-shadow:inset 0px 0px 5px 0px lightcyan;
@@ -90,15 +105,19 @@ border-radius: 50%;
 
 
 .nav-button {
- border: 1px solid cyan;
- background-color: rgba(0, 255, 255, 0.192);
+ border: 1px solid $blueLight;
+ background-color: $blueLight;
+ opacity: 0.8;
  padding-left: 13px;
  margin-bottom: 4px;
  border-radius: 5px;
 }
 
 .nav-button:hover {
-background-color: cyan;
+color: $orange;
+background-color: $blueLight;
+opacity: 1;
+box-shadow: inset 0px 0px 15px 0px $blueLight;
 
 }
 

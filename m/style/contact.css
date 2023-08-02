@@ -1,0 +1,114 @@
+.both_sides {
+  background-image: url("/assets/temp/pokadots.png");
+  background-size: contain;
+}
+
+.both_sides::after {
+  content: "";
+  background-color: #04909377;
+}
+
+.contact_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f6ecc646;
+  padding: 10px;
+  margin-left: 5vw;
+  width: 60vw;
+  height: 75vh;
+  /* adjust to fit more list items */
+}
+
+.contact_links {
+  background-color: #f6ecc6bd;
+  width: 30vw;
+  padding: 5px;
+  padding-left: 20px;
+  width: 45vw;
+  max-width: 200px;
+}
+
+.contact_bubble {
+  background-color: #f6ecc6bd;
+  margin: 10px;
+  width: 45vw;
+  max-width: 200px;
+  border: #ff640c 1px solid;
+  border-radius: 7px;
+  padding: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact_socials {
+  padding-left: 10px;
+  border-radius: 7px;
+}
+
+.contact-button {
+  border: 1px solid #049093;
+  background-color: #04909377;
+  padding-left: 13px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+}
+
+.contact-button:hover {
+  background-color: #fb965c;
+}
+
+.contact-button:hover i {
+  color: #83cbcc;
+}
+
+/*
+.contact_link {
+ color: $blue; //#025e5f    idk if this is used anywhere
+
+ &:hover {
+ color: #cc83b2;
+ }
+}
+
+ul {
+
+ i{
+  color: $orange; /* erase if he wants it to match the words 
+ }
+
+ li {
+  font-size: medium;   /* song names can be larger 
+ }
+
+ a {
+  text-decoration: none;
+  color: #ff640c;
+  font-weight: 600;
+  padding: 5px;
+
+  &:hover {
+   color: #ff640c;
+  }
+ }
+}
+
+
+
+
+*/
+/*# sourceMappingURL=contact.css.map */

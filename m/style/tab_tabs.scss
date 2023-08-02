@@ -1,0 +1,89 @@
+
+
+$blue: #049093;
+$blueT50: #04909377;
+$blueLight: #83cbcc;
+$blueDark: #025e5f;
+$orange: #ff640c;
+$orangeLight: #fb965c;
+$orangeLighter: #f9b58e;
+$orangeDark: #b94909;
+$yellow: #faf3a7;
+$yellowLight: #f6ecc6;
+$yellowLightT30: #f6ecc646;
+$yellowLightT80: #f6ecc6bd;
+$yellowDark: #ccbf90;
+$fontWhite: white;
+
+
+
+
+
+
+
+body{
+ background-color: $yellowLightT30;
+}
+
+.tabs_box, .tab_box {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: $yellowLightT30 ;
+ padding: 10px;
+ width: 100vw;
+ max-width: 568px;
+ min-width: 300px;
+
+ 
+ height: 75vh; /* adjust to fit more list items */
+}
+
+.tabs_disclosure, .tab_banner{
+ background-color: $yellowLightT30;
+ width: 75vw;
+}
+
+.tabs_list, .tab_doc {
+ background-color: $yellowLightT30;
+ margin: 10px;
+ width: 56vw;
+ min-width: 268px;
+ max-width: 568px;
+}
+
+.tabs_link, .tab_link {
+ color: $blueDark;
+
+ &:hover {
+ background-color: $blueLight;
+ }
+}
+
+ul {
+ i {
+  color: $orange; /* erase if he wants it to match the words */
+  margin-left: 9px;
+ }
+
+ li {
+  font-size: medium;   /* song names can be larger */
+ }
+
+ a{
+  text-decoration: none;
+  color: $orange;
+  font-weight: 600;
+  padding: 5px;
+
+  &:hover {
+   color: $blueDark;
+   background-color: $orangeLight;
+  }
+ }
+}
+
+
+
+
