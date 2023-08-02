@@ -127,5 +127,6 @@ ul.pdf, .banner-p.pdf {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  /* fix */
 }
 /*# sourceMappingURL=tab_tabs.css.map */
