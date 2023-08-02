@@ -1,5 +1,53 @@
+html {
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
 body {
   background-color: #f6ecc646;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.row {
+  min-height: 1rem;
+}
+
+.hidden-hr {
+  border-top: 0px solid;
+  border-bottom: 3px solid #049093;
+  margin: 0.1rem 0;
+}
+
+.hidden-hr.hr1 {
+  border-color: #faf3a7;
+}
+
+.hidden-hr.hr2 {
+  border-color: #ff640c;
+}
+
+.hidden-hr.hr3 {
+  border-color: #049093;
+}
+
+.silly-hr::before, .silly-hr::after {
+  content: "";
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  border-bottom: 14px double #049093;
+  opacity: .4;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.row-main {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .tabs_box, .tab_box {
@@ -28,6 +76,7 @@ body {
 .tabs_disclosure, .tab_banner {
   background-color: #f6ecc646;
   width: 75vw;
+  min-height: 100px;
 }
 
 .tabs_list, .tab_doc {
@@ -38,6 +87,11 @@ body {
   max-width: 568px;
 }
 
+.tabs_list.doc_jpg, .tab_doc.doc_jpg {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
 .tabs_link, .tab_link {
   color: #025e5f;
 }
@@ -46,25 +100,25 @@ body {
   background-color: #83cbcc;
 }
 
-ul i {
+ul i, .banner-p i {
   color: #ff640c;
   /* erase if he wants it to match the words */
   margin-left: 9px;
 }
 
-ul li {
+ul li, .banner-p li {
   font-size: medium;
   /* song names can be larger */
 }
 
-ul a {
+ul a, .banner-p a {
   text-decoration: none;
   color: #ff640c;
   font-weight: 600;
   padding: 5px;
 }
 
-ul a:hover {
+ul a:hover, .banner-p a:hover {
   color: #025e5f;
   background-color: #fb965c;
 }
