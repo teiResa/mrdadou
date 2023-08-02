@@ -122,4 +122,10 @@ ul a:hover, .banner-p a:hover {
   color: #025e5f;
   background-color: #fb965c;
 }
+
+ul.pdf, .banner-p.pdf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=tab_tabs.css.map */
