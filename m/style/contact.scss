@@ -1,6 +1,7 @@
 $blue: #049093;
 $blueT50: #04909377;
 $blueLight: #83cbcc;
+$blueLightT50: #83cbcc71;
 $blueDark: #025e5f;
 $orange: #ff640c;
 $orangeLight: #fb965c;
@@ -20,6 +21,7 @@ $fontWhite: white;
  &::after {
   content: "";
   background-color: $blueT50;
+  /* May be able to delete this section */
  }
 }
 
@@ -69,7 +71,8 @@ $fontWhite: white;
 
 .contact-button {
  border: 1px solid $blue;
- background-color: $blueT50;
+ background-color: $blueT50;  
+ /* was $blueLightT50, but it is too  */
  padding-left: 13px;
  margin-bottom: 4px;
  border-radius: 5px;
@@ -78,7 +81,7 @@ $fontWhite: white;
   background-color: $orangeLight;
 
   i {
-   color: $blueLight;
+   color: $blueDark;
   }
  }
 

@@ -6,6 +6,7 @@
 .both_sides::after {
   content: "";
   background-color: #04909377;
+  /* May be able to delete this section */
 }
 
 .contact_box {
@@ -63,6 +64,7 @@
 .contact-button {
   border: 1px solid #049093;
   background-color: #04909377;
+  /* was $blueLightT50, but it is too  */
   padding-left: 13px;
   margin-bottom: 4px;
   border-radius: 5px;
@@ -73,7 +75,7 @@
 }
 
 .contact-button:hover i {
-  color: #83cbcc;
+  color: #025e5f;
 }
 
 /*

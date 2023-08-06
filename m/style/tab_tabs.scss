@@ -70,7 +70,9 @@ body{
 }
 
 .row-main {
+ display: flex;
  justify-content: center;
+
 }
 
 .tabs_box, .tab_box {
@@ -78,6 +80,8 @@ body{
  flex-direction: column;
  justify-content: center;
  align-items: center;
+ 
+ align-content: center;
  background-color: $yellowLightT30 ;
  padding: 10px;
  width: 100vw;
@@ -96,9 +100,29 @@ body{
  min-height: 100px;
 }
 
+.temp-banner {
+ display: flex;
+ justify-content: center;
+ margin-left: 4vw;
+ margin-top: 4vw;
+}
+
+.banner-p, .banner-row-1 {
+ margin-bottom: 5px;
+}
+
+
+
+.banner-row-2{
+  margin-left: 8vw;
+  margin-bottom: 5px;
+ }
+
 .tabs_list, .tab_doc {
  background-color: $yellowLightT30;
  margin: 10px;
+ margin-top: 7px;
+ margin-left: 7px;
  width: 56vw;
  min-width: 268px;
  max-width: 568px;
@@ -106,6 +130,7 @@ body{
   &.doc_jpg{
    overflow-x:scroll;
    overflow-y: hidden;
+   min-width: 268px;
   }
 }
 
@@ -136,6 +161,7 @@ ul, .banner-p {
   &:hover {
    color: $blueDark;
    background-color: $orangeLight;
+   border-radius: 3px;
   }
  }
 
