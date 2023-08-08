@@ -9,11 +9,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 25vw;
+  width: 16vw;
+  height: 98vh;
   z-index: 100;
   background-image: url("/assets/temp/pokadots.png");
   background-size: cover;
   background-color: #ff640c;
+  /*
+ &ul {
+  width: 200px;
+  background-color: greenyellow;
+ }
+ */
 }
 
 .sidebar > * {
@@ -26,7 +33,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 25vw;
+  width: 15vw;
   height: 101vh;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#fb965c), to(#faf3a7));
   background-image: linear-gradient(180deg, #fb965c, #faf3a7);
@@ -41,67 +48,43 @@ body {
   }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .sidebar::after {
-    width: 100%;
-    height: 112vh;
+@media (min-width: 768px) and (max-width: 1200px) {
+  /*
+ .sidebar {
+
+  &ul {
+   width: 100px;
+  }
+ }
+ */
+  .sidebar {
+    width: 25vw;
+    background-image: url("/assets/temp/pokadots.png");
   }
   .sidebar::after {
-    width: 55vw;
+    width: 24vw;
     height: 101vh;
-  }
-  #nav_img {
-    width: 20px;
-  }
-  .fs-4 {
-    font-size: calc(1.0rem + .2vw) !important;
-  }
-  li {
-    min-width: 120px;
-  }
-  i {
-    padding-right: 7px;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#fb965c), to(#faf3a7));
+    background-image: linear-gradient(360deg, #fb965c, #faf3a7);
+    opacity: .7;
+    -webkit-box-shadow: 14px -16px 25px #f9b58e;
+            box-shadow: 14px -16px 25px #f9b58e;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
-  sidebar {
-    width: 173px;
-  }
-  .sidebar::after {
-    width: 173px;
-    height: 112vh;
-  }
-  #nav_img {
-    width: 20px;
-  }
-  .fs-4 {
-    font-size: calc(1.0rem + .2vw) !important;
-  }
-  li {
-    min-width: 120px;
-  }
-  i {
-    padding-right: 7px;
+@media (min-height: 650px) {
+  .sidebar .photocard p, .sidebar a {
+    font-size: x-large;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-height: 650px) {
+  .sidebar {
+    width: 19vw;
+  }
   .sidebar::after {
-    width: 173px;
-    height: 112vh;
-  }
-  #nav_img {
-    width: 20px;
-  }
-  .fs-4 {
-    font-size: calc(1.0rem + .2vw) !important;
-  }
-  li {
-    min-width: 120px;
-  }
-  i {
-    padding-right: 7px;
+    width: 19vw;
+    height: 101vh;
   }
 }
 
@@ -148,7 +131,9 @@ a p {
 }
 
 li:hover {
-  background-color: #83cbcc;
+  background: #83cbcc;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #04909377), color-stop(33%, #83cbcc));
+  background: linear-gradient(180deg, #04909377 15%, #83cbcc 33%);
 }
 
 .disable-hover {
@@ -162,4 +147,4 @@ li:hover {
   -ms-user-select: none;
   user-select: none;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style2.css.map */
