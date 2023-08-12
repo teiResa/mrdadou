@@ -126,10 +126,25 @@ box-shadow: inset 0px 0px 15px 0px $blueLight;
 pointer-events: none;
 }
 
+/* Showing which item in accessibility menu is selected. ... with li tag, class="cm-active" */
+.cm-active {
+ background-color: $orangeLighter;
+ color: $fontWhite;
+ & i{
+  color: $blueDark;
+ } & a {
+   color: black;
+  }
+}
+
 .disable-highlight{ 
 -webkit-user-select:none;
 -webkit-touch-callout:none;
 -moz-user-select:none;
 -ms-user-select:none;
 user-select:none;
+}
+
+li {
+ text-transform: capitalize;
 }

@@ -136,6 +136,19 @@ li:hover {
   background: linear-gradient(180deg, #04909377 15%, #83cbcc 33%);
 }
 
+.cm-active {
+  background-color: #f9b58e;
+  color: white;
+}
+
+.cm-active i {
+  color: #025e5f;
+}
+
+.cm-active a {
+  color: black;
+}
+
 .disable-hover {
   pointer-events: none;
 }

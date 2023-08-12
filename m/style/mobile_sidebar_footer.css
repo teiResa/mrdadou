@@ -101,11 +101,29 @@ a #text {
   pointer-events: none;
 }
 
+/* Showing which item in accessibility menu is selected. ... with li tag, class="cm-active" */
+.cm-active {
+  background-color: #f9b58e;
+  color: white;
+}
+
+.cm-active i {
+  color: #025e5f;
+}
+
+.cm-active a {
+  color: black;
+}
+
 .disable-highlight {
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+li {
+  text-transform: capitalize;
 }
 /*# sourceMappingURL=mobile_sidebar_footer.css.map */

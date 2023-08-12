@@ -163,6 +163,16 @@ li:hover {
 background: linear-gradient(180deg, $blueT50 15%, $blueLight 33%);
 }
 
+.cm-active {
+ background-color: $orangeLighter;
+ color: $fontWhite;
+ & i{
+  color: $blueDark;
+ } & a {
+   color: black;
+  }
+}
+
 
 .disable-hover {
  pointer-events: none;
