@@ -171,12 +171,22 @@ background: linear-gradient(180deg, $blueT50 15%, $blueLight 33%);
  } & a {
    color: black;
   }
+  &.cm-active:hover {
+   background-color: $blueLight !important;
+  }
 }
 
 
 .disable-hover {
  pointer-events: none;
 }
+
+/* Accessibility highlight, but the hover only */
+.am-menu-items:hover, .cm-active:hover {
+ background-color: $blueLight;
+}
+
+
 
 .disable-highlight{ 
  -webkit-user-select:none;

@@ -142,6 +142,11 @@ pointer-events: none;
   }
 }
 
+/* Accessibility highlight, but the hover only 
+.am-menu-items:hover {
+ background-color: pink;
+}
+*/
 .disable-highlight{ 
 -webkit-user-select:none;
 -webkit-touch-callout:none;

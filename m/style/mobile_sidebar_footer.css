@@ -14,8 +14,13 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    max-width: 768px;
+    max-width: 769px;
     /*
+   Um, the image needs to not stop so far off the side, but I am leaving this to be fixed later as I will probably use vectors so that would be a non-problem.
+
+   Also, I will have to do the same for the profile image, but blue background, different blue frame. The owner wants the image to be cut-out around him, then vectored so you can see under. 
+
+
    width: 600px;  needs to be smaller for vertical mobile phones*/
     background-image: url("/assets/temp/pokadots.png");
     background-repeat: repeat;
@@ -115,6 +120,11 @@ a #text {
   color: black;
 }
 
+/* Accessibility highlight, but the hover only 
+.am-menu-items:hover {
+ background-color: pink;
+}
+*/
 .disable-highlight {
   -webkit-user-select: none;
   -webkit-touch-callout: none;

@@ -149,8 +149,17 @@ li:hover {
   color: black;
 }
 
+.cm-active.cm-active:hover {
+  background-color: #83cbcc !important;
+}
+
 .disable-hover {
   pointer-events: none;
+}
+
+/* Accessibility highlight, but the hover only */
+.am-menu-items:hover, .cm-active:hover {
+  background-color: #83cbcc;
 }
 
 .disable-highlight {
