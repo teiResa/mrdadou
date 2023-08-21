@@ -119,6 +119,7 @@ body{
   overflow-x: scroll;
   overflow-y: hidden;
   min-width: 268px;
+  /* was 268px */
 }
 
 .tabs_link, .tab_link {
@@ -173,5 +174,17 @@ ul.pdf, .banner-p.pdf {
   display: -ms-flexbox;
   display: flex;
   /* fix */
+}
+
+@media (min-width: 1100px) {
+  .tab_box {
+    height: calc(35vw * 2);
+    width: 900px;
+  }
+  .tab_doc {
+    background-color: #04909377;
+    width: 65vw;
+    height: calc(55vw * 1.5);
+  }
 }
 /*# sourceMappingURL=tab_tabs.css.map */

@@ -87,10 +87,6 @@ body{
  width: 100vw;
  max-width: 568px;
  min-width: 300px;
- 
-
-
- 
  height: 75vh; /* adjust to fit more list items */
 }
 
@@ -188,4 +184,17 @@ ul, .banner-p {
 
 
 
+@media (min-width: 1100px){
+
+ .tab_box {
+  height: calc(35vw * 2);
+  width: 900px;
+ }
+
+ .tab_doc {
+  background-color: $blueT50;
+  width: 65vw;
+  height: calc(55vw * 1.5);
+ }
+}
 
