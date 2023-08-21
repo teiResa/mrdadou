@@ -131,7 +131,7 @@ body{
   &.doc_jpg{
    overflow-x:scroll;
    overflow-y: hidden;
-   min-width: 268px;
+   min-width: 268px; /* was 268px */
   }
 }
 
