@@ -15,8 +15,10 @@ $yellowDark: #ccbf90;
 $fontWhite: white;
 
 .both_sides{
- background-image: url("/assets/temp/pokadots.png");
- background-size: contain;
+ background-image: url("/assets/dav_circ_lines.png");
+
+ // background-image: url("/assets/temp/pokadots.png");
+ background-size: cover;
 
  &::after {
   content: "";
