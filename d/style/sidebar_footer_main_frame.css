@@ -1,6 +1,29 @@
+.sidebar {
+  /* This was taken from MRDADOU/style/style2.scss */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 16vw;
+  height: auto;
+  z-index: 100;
+  background-image: url("/assets/temp/pokadots.png");
+  /* Should I make a hor and a vert version of pokadots ? 
+ background-size: cover;
+ background-color: $orange;*/
+}
+
+.sidebarsidebar::after, .sidebarsidebar::before {
+  height: auto;
+}
+
 .tabs_box, .tab_box {
   margin: 25px;
-  background-color: red;
+  /*
+ background-color: green; 
+ */
 }
 
 /* Accessibility highlight, but the hover only */

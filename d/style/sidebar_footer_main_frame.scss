@@ -1,10 +1,32 @@
 
+.sidebar {
+ /* This was taken from MRDADOU/style/style2.scss */
+ display: flex;
+ align-items: center;
+ width: 16vw;  // was 260px
+
+ height: auto; // was 98vh
+    // adjust for page length, was removed so footer would stop cutting off the accessibility menu when the vsidebar is ver. for desktop mode.
+
+ z-index: 100;
+ background-image: url("/assets/temp/pokadots.png");
+
+ /* Should I make a hor and a vert version of pokadots ? 
+ background-size: cover;
+ background-color: $orange;*/
+
+ &sidebar::after, &sidebar::before {
+  height: auto;
+ }
+}
 
 
 
 .tabs_box, .tab_box {
  margin: 25px;
- background-color: red;
+ /*
+ background-color: green; 
+ */
 }
 
 
