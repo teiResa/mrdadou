@@ -3,14 +3,14 @@
  /* This was taken from MRDADOU/style/style2.scss */
  display: flex;
  align-items: center;
- width: 16vw;  // was 260px
+ width: 17vw;  // was 260px
 
  height: auto; // was 98vh
     // adjust for page length, was removed so footer would stop cutting off the accessibility menu when the vsidebar is ver. for desktop mode.
 
  z-index: 100;
- background-image: url("/assets/bg/david_pokadots_1.png");
- background-size: 75px;
+ background-image: url("/assets/bg/david_pokadots_2.png");
+ background-size: 115px;
 
  /* Should I make a hor and a vert version of pokadots ? 
  background-size: cover;
@@ -19,7 +19,10 @@
  &sidebar::after, &sidebar::before {
   height: auto;
  }
-}
+
+ &.sidebar::after {
+  width: 23vw;
+}}
 
 
 

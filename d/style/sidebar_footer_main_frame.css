@@ -6,11 +6,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 16vw;
+  width: 17vw;
   height: auto;
   z-index: 100;
-  background-image: url("/assets/bg/david_pokadots_1.png");
-  background-size: 75px;
+  background-image: url("/assets/bg/david_pokadots_2.png");
+  background-size: 115px;
   /* Should I make a hor and a vert version of pokadots ? 
  background-size: cover;
  background-color: $orange;*/
@@ -18,6 +18,10 @@
 
 .sidebarsidebar::after, .sidebarsidebar::before {
   height: auto;
+}
+
+.sidebar.sidebar::after {
+  width: 23vw;
 }
 
 .tabs_box, .tab_box {
