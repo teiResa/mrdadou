@@ -33,7 +33,7 @@ $fontWhite: white;
 
 
 .both_sides{
- background-image: url("../../assets/david_c_lines.png");
+ background-image: url("../../assets/404/david_404_1.png");
  
 
  // make image rectangular so it sits next to the contact_box info, not under it. Prob need a min-width and min-width with the value with like vw/vh.
@@ -75,8 +75,8 @@ decided to go a different route. Remember to remove the div from the html too.
  align-items: center;
  background-color: $yellowLightT30 ;  //make translucent
  padding: 10px;
- margin-left: 5vw;
- width: 30vw;
+ margin-left: 32vw;
+ width: 30vw; 
  
  height: 99vh; /* adjust to fit more list items. was 75vh, but made it 99 so the background wasn't cut off */
 }
@@ -99,6 +99,7 @@ decided to go a different route. Remember to remove the div from the html too.
  border: $orange 1px solid;
  border-radius: 7px;
  padding: 3px;
+ margin-top: 175px;
 
  display: flex;
  justify-content: center;

@@ -11,7 +11,7 @@
 }
 
 .both_sides {
-  background-image: url("../../assets/david_c_lines.png");
+  background-image: url("../../assets/404/david_404_1.png");
   background-size: cover;
 }
 
@@ -54,7 +54,7 @@ decided to go a different route. Remember to remove the div from the html too.
           align-items: center;
   background-color: #f6ecc646;
   padding: 10px;
-  margin-left: 5vw;
+  margin-left: 32vw;
   width: 30vw;
   height: 99vh;
   /* adjust to fit more list items. was 75vh, but made it 99 so the background wasn't cut off */
@@ -77,6 +77,7 @@ decided to go a different route. Remember to remove the div from the html too.
   border: #ff640c 1px solid;
   border-radius: 7px;
   padding: 3px;
+  margin-top: 175px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
