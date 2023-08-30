@@ -1,5 +1,5 @@
 .both_sides {
-  background-image: url("/assets/dav_circ_lines.png");
+  background-image: url("/assets/david_c_lines.png");
   background-size: cover;
 }
 
@@ -16,6 +16,15 @@
 }
 
 decided to go a different route. Remember to remove the div from the html too.
+*/
+.contact_right {
+  color: #025e5f00;
+}
+
+/*
+.contact_left {
+ width: 30vw;
+}
 */
 .contact_box {
   display: -webkit-box;
@@ -34,7 +43,7 @@ decided to go a different route. Remember to remove the div from the html too.
   background-color: #f6ecc646;
   padding: 10px;
   margin-left: 5vw;
-  width: 60vw;
+  width: 30vw;
   height: 99vh;
   /* adjust to fit more list items. was 75vh, but made it 99 so the background wasn't cut off */
 }
