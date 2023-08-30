@@ -21,8 +21,26 @@
  }
 
  &.sidebar::after {
-  width: 23vw;
+  width: 16vw;
 }}
+
+#nav_img {
+ border-radius: 50%;
+ width: 130px;
+ background-image: url("/assets/logos/david_logo_fancy_sepia_blank_1.png");
+ scale: 160%;
+ margin-top: 40px;
+}
+
+a p {
+
+ // put the p from the sidebar into the png. This would be too much work.
+ color: #025e5f;
+ position: absolute;
+ top: 240px;
+ margin-top: 0px;
+ margin-bottom: -1px;
+}
 
 
 

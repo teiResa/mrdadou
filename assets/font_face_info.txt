@@ -1,0 +1,12 @@
+
+
+
+HOW TO:
+
+https://www.digitalocean.com/community/tutorials/how-to-load-and-use-custom-fonts-with-css#loading-a-self-hosted-font-with-font-face
+
+
+
+....... ../assets/smokum.zip
+
+Will do this later, because it isn't used anywhere graphics wouldn't suit fine. This is just incase for later.
