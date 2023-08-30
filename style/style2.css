@@ -162,6 +162,18 @@ li:hover {
   background-color: #83cbcc;
 }
 
+@font-face {
+  font-family: "Smokum Regular";
+  src: url("/assets/smokum/Smokum-Regular.ttf");
+}
+
+.smokum {
+  font-family: 'Smokum';
+  font-weight: 600;
+  font-size: larger;
+  font-stretch: ultra-expanded;
+}
+
 .disable-highlight {
   -webkit-user-select: none;
   -webkit-touch-callout: none;

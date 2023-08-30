@@ -186,7 +186,17 @@ background: linear-gradient(180deg, $blueT50 15%, $blueLight 33%);
  background-color: $blueLight;
 }
 
+ @font-face {
+  font-family: "Smokum Regular";
+  src: url("/assets/smokum/Smokum-Regular.ttf");
+ }
 
+ .smokum {
+  font-family: 'Smokum';
+  font-weight: 600;
+  font-size: larger;
+  font-stretch: ultra-expanded;
+ }
 
 .disable-highlight{ 
  -webkit-user-select:none;
