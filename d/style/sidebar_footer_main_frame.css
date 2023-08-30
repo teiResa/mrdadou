@@ -9,7 +9,8 @@
   width: 16vw;
   height: auto;
   z-index: 100;
-  background-image: url("/assets/temp/pokadots.png");
+  background-image: url("/assets/bg/david_pokadots_1.png");
+  background-size: 75px;
   /* Should I make a hor and a vert version of pokadots ? 
  background-size: cover;
  background-color: $orange;*/
