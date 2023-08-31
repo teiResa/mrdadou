@@ -121,7 +121,7 @@ body {
  } 
 
  a p {
-  color: $blueDark;
+  color: greenyellow;
   margin-top: 4px;
   margin-bottom: -1px;
  }
@@ -196,6 +196,43 @@ background: linear-gradient(180deg, $blueT50 15%, $blueLight 33%);
   font-weight: 600;
   font-size: larger;
   font-stretch: ultra-expanded;
+ }
+
+ @font-face {
+  font-family: "Reey Regular" ;
+  src: url("/assets/smokum/Reey-Regular.otf");
+  font-weight: 100;
+ }
+
+ .signed {
+  font-family: 'Reey Regular';
+ }
+ @font-face {
+  //Jinky typeface by Patrick Broderick, Rotodesign, 2006
+  font-family: 'JINKY';
+  src: url('/assets/smokum/JINKY.ttf');
+ }
+
+ .written {
+  //font-family: 'JINKY';
+  //font-family: 'Blokletters Balpen';
+  //font-family: 'Blokletters Potlood';
+  font-family: 'Blokletters Viltstift';
+ }
+
+ @font-face {
+  font-family: 'Blokletters Balpen';
+  src: url('/assets/smokum/Blokletters-Balpen.ttf');
+ }
+
+ @font-face {
+  font-family: 'Blokletters Potlood';
+  src: url('/assets/smokum/Blokletters-Potlood.ttf');
+ }
+
+ @font-face {
+  font-family: 'Blokletters Viltstift';
+  src: url('/assets/smokum/Blokletters-Viltstift.ttf');
  }
 
 .disable-highlight{ 

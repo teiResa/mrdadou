@@ -32,12 +32,22 @@
  margin-top: 40px;
 }
 
+.nav-link {
+ //font-family: 'Reey Regular';
+ //font-family: 'JINKY';
+ //font-family: 'Times New Roman', Times, serif;
+ font-family: 'Blokletters Balpen';
+ //font-family: 'Blokletters Potlood'; too thin
+ //font-family: 'Blokletters Viltstift'; Too thick
+ font-weight: 700;
+}
+
 a p {
 
  // put the p from the sidebar into the png. This would be too much work.
  color: #025e5f;
  position: absolute;
- top: 240px;
+ top: 273px; //was 240px .. Think i'll just add it to image once we know what he wants there.
  margin-top: 0px;
  margin-bottom: -1px;
 }
