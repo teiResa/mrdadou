@@ -19,6 +19,7 @@ decided to go a different route. Remember to remove the div from the html too.
 */
 .contact_right {
   color: #025e5f00;
+  padding-right: 40px;
 }
 
 /*
