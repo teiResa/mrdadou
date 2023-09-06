@@ -1,0 +1,172 @@
+$blue: #049093;
+$blueT50: #04909377;
+$blueLight: #83cbcc;
+$blueLightT50: #83cbcc71;
+$blueDark: #025e5f;
+$orange: #ff640c;
+$orangeLight: #fb965c;
+$orangeLighter: #f9b58e;
+$orangeDark: #b94909;
+$yellow: #faf3a7;
+$yellowLight: #f6ecc6;
+$yellowLightT30: #f6ecc646;
+$yellowLightT80: #f6ecc6bd;
+$yellowDark: #ccbf90;
+$fontWhite: white;
+
+
+.sidebar {
+ background-image: url("../../assets/bg/david_pokadots_2.png");
+}
+
+#nav_img {
+ border-radius: 50%;
+ width: 130px;
+ background-image: url("../../assets/logos/david_logo_fancy_sepia_blank_1.png");
+ scale: 160%;
+ margin-top: 40px;
+}
+
+
+
+
+
+
+.both_sides{
+ background-image: url("../../assets/404/david_404_1.png");
+ 
+
+ // make image rectangular so it sits next to the contact_box info, not under it. Prob need a min-width and min-width with the value with like vw/vh.
+
+ // background-image: url("/assets/temp/pokadots.png");
+ background-size: cover;
+
+ &::after {
+  content: "";
+  background-color: $blueT50;
+  /* May be able to delete this section */
+ }
+}
+
+/*
+.right_box {
+ min-width: 500px;
+ background-color: pink;
+}
+
+decided to go a different route. Remember to remove the div from the html too.
+*/
+
+.contact_right {
+ color: #025e5f00;
+}
+
+
+/*
+.contact_left {
+ width: 30vw;
+}
+*/
+
+.contact_box {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: $yellowLightT30 ;  //make translucent
+ padding: 10px;
+ margin-left: 32vw;
+ width: 30vw; 
+ 
+ height: 99vh; /* adjust to fit more list items. was 75vh, but made it 99 so the background wasn't cut off */
+}
+
+.contact_links{
+ background-color: $yellowLightT80;
+ width: 30vw;
+ padding: 5px;
+ padding-left: 20px;
+
+ width: 45vw;
+ max-width: 200px;
+}
+
+.contact_bubble {
+ background-color: $yellowLightT80;
+ margin: 10px;
+ width: 45vw;
+ max-width: 200px;
+ border: $orange 1px solid;
+ border-radius: 7px;
+ padding: 3px;
+ margin-top: 175px;
+
+ display: flex;
+ justify-content: center;
+}
+
+.contact_socials {
+ padding-left: 10px;
+
+ border-radius: 7px;
+}
+
+
+.contact-button {
+ border: 1px solid $blue;
+ background-color: $blueT50;  
+ /* was $blueLightT50, but it is too  */
+ padding-left: 13px;
+ margin-bottom: 4px;
+ border-radius: 5px;
+
+ &:hover {
+  background-color: $orangeLight;
+
+  i {
+   color: $blueDark;
+  }
+ }
+
+ 
+}
+
+
+/*
+.contact_link {
+ color: $blue; //#025e5f    idk if this is used anywhere
+
+ &:hover {
+ color: #cc83b2;
+ }
+}
+
+ul {
+
+ i{
+  color: $orange; /* erase if he wants it to match the words 
+ }
+
+ li {
+  font-size: medium;   /* song names can be larger 
+ }
+
+ a {
+  text-decoration: none;
+  color: #ff640c;
+  font-weight: 600;
+  padding: 5px;
+
+  &:hover {
+   color: #ff640c;
+  }
+ }
+}
+
+
+
+
+*/
+
+
+
